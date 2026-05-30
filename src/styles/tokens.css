@@ -1,0 +1,24 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #0f172a;
+  --accent: #14b8a6;
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-soft: #eef6ff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --line: rgba(15, 23, 42, 0.12);
+  --shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+  --radius: 8px;
+  --container: min(1120px, calc(100vw - 40px));
+}
+
+:root[data-theme='dark'] {
+  --background: #020617;
+  --surface: #0f172a;
+  --surface-soft: #111d35;
+  --text: #f8fafc;
+  --muted: #a6b3c5;
+  --line: rgba(248, 250, 252, 0.14);
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.32);
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "smart-device-dashboard",
+    "title": "Smart Device Monitoring Dashboard",
+    "category": "dashboard",
+    "tech": ["React.js", "JavaScript", "REST APIs", "Tailwind CSS"],
+    "description": "Interactive dashboard displaying connected device information in real time.",
+    "features": ["Live data updates", "Search functionality", "Responsive layouts", "Dynamic charts", "Reusable components"],
+    "challenge": "Managing large API datasets efficiently while keeping the interface responsive.",
+    "solution": "Separated display components from data handling, reused status cards, and kept filtering logic predictable for large lists.",
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "business-portfolio",
+    "title": "Business Portfolio Website",
+    "category": "website",
+    "tech": ["React.js", "CSS3", "React Router"],
+    "description": "A responsive business website with project galleries, routed pages, and contact flows.",
+    "features": ["Dynamic routing", "Contact forms", "Mobile-first design", "Project galleries"],
+    "challenge": "Balancing visual presentation with fast navigation and simple content updates.",
+    "solution": "Built reusable page sections and kept the routing structure clear for future pages.",
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "task-management",
+    "title": "Task Management Application",
+    "category": "application",
+    "tech": ["React.js", "Redux", "Material UI"],
+    "description": "Task workflow interface with CRUD operations, search, filters, and state management.",
+    "features": ["CRUD operations", "State management", "Search and filtering"],
+    "challenge": "Keeping task state consistent across list, detail, and filter views.",
+    "solution": "Centralized shared state and designed compact reusable controls for repeated task actions.",
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "expense-tracker",
+    "title": "Expense Tracker",
+    "category": "application",
+    "tech": ["React.js"],
+    "description": "Personal expense tool with analytics, category filtering, and local persistence.",
+    "features": ["Expense analytics", "Category filtering", "Local storage persistence"],
+    "challenge": "Making stored data easy to review without requiring a backend service.",
+    "solution": "Used local storage for persistence and simple summaries for category-level insight.",
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "weather-dashboard",
+    "title": "Weather Dashboard",
+    "category": "api",
+    "tech": ["React.js", "OpenWeather API"],
+    "description": "Weather interface with location search, live forecasts, and responsive views.",
+    "features": ["Live forecasts", "Location search", "Responsive design"],
+    "challenge": "Presenting changing API data in a compact mobile-friendly layout.",
+    "solution": "Organized current conditions and forecast cards into clear, scannable sections.",
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "movie-explorer",
+    "title": "Movie Explorer",
+    "category": "api",
+    "tech": ["React.js", "TMDB API"],
+    "description": "Movie discovery app with search, filtering, and detail pages.",
+    "features": ["Movie search", "Filtering", "Detail pages"],
+    "challenge": "Helping users browse large result sets without overwhelming the interface.",
+    "solution": "Combined search, category filters, and routed detail views for focused exploration.",
+    "github": "",
+    "demo": ""
+  }
+]
